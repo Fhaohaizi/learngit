@@ -258,15 +258,15 @@ public class Case extends Special{
 				//start 布置作业
 				//设置班级名字
 				findElementByIdAndClearSendkeys(driver, "paper_name", "paper_name", "selenium");
-				//设置班级
+				//设置班级》点击选择班级》选择第一个班级》选择所有人
 				findElementByIdAndClick(driver, "BanJi");
 				findElementByXpathAndClick(driver, "html/body/div[3]/div[2]/dl[2]/dd/select/option[2]");
 				findElementByXpathAndClick(driver, "html/body/table/tbody/tr[2]/td/div/div[2]/input");
 				findElementByTextAndClick(driver, "确定");
-				//设置分值和时间
+				//设置分值》设置时间
 				findElementByIdAndClearSendkeys(driver, "TS", "TS", "100");
 				findElementByIdAndClearSendkeys(driver, "T2", "T2", "90");
-				//设置日期
+				//设置日期》点击日期选框》点击下个月》选择23号
 				sleep(1);
 				findElementByXpathAndClick(driver, "html/body/div[3]/div[2]/dl[6]/dd/input");
 				findElementByXpathAndClick(driver, "//a[@title = 'Next Month']");
@@ -274,8 +274,10 @@ public class Case extends Special{
 				findElementByTextAndClick(driver, "确定发布");
 				//end
 				sleep(2);
+				//获取班级名称》验证》撤销
 				String workname = findElementByXpath(driver, "html/body/div[5]/div[2]/div/table/tbody/tr[1]/td[1]/a").getText();
 				assertEquals("作业布置成功！", "selenium", workname);
+				findElementByXpathAndClick(driver, "html/body/div[5]/div[2]/div/table/tbody/tr[1]/td[6]/a");
 				driver.close();
 				}
 			}

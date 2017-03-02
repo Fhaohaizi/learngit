@@ -6,7 +6,6 @@ import java.util.Scanner;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
-
 public class Special extends Base{
 	//选择老师身份登录
 	public static void loginWithTeacher(WebDriver driver) throws InterruptedException, AWTException {

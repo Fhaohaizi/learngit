@@ -1,9 +1,6 @@
 package mytest;
 
-import com.android.uiautomator.core.UiDevice;
-import com.android.uiautomator.core.UiObject;
 import com.android.uiautomator.core.UiObjectNotFoundException;
-import com.android.uiautomator.core.UiSelector;
 
 @SuppressWarnings({ "deprecation"})
 public class Test extends ClassCase{
@@ -13,8 +10,9 @@ public class Test extends ClassCase{
 	public void testTest() throws UiObjectNotFoundException{
 		
 		
-		
-		
+		writeText("香香莉女鞋");//填写口令
+		sleep(2000);
+		getUiObjextByResourceId("com.jingdong.app.mall:id/rt").click();
 		
 		
 		

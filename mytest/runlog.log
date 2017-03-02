@@ -1,0 +1,1435 @@
+Added file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\Users\user\workspace\mytest\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 15 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] ע: C:\Users\user\workspace\mytest\src\com\beetstra\jutf7\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+adb: error: connect failed: no devices/emulators found
+error: no devices/emulators found
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+adb: error: connect failed: no devices/emulators found
+error: no devices/emulators found
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in checkForFlow:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=手机京东]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:18)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=手机京东]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:18)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 15.58
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in checkForFlow:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=手机京东]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:18)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=手机京东]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:18)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 17.714
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in checkForFlow:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=全部, RESOURCE_ID=com.jingdong.app.mall:id/fz]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:20)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=全部, RESOURCE_ID=com.jingdong.app.mall:id/fz]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:20)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 31.424
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in checkForFlow:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=全部, RESOURCE_ID=com.jingdong.app.mall:id/fz]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:20)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=全部, RESOURCE_ID=com.jingdong.app.mall:id/fz]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:20)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 27.014
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+========香香莉女鞋========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in checkForFlow:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.jingdong.app.mall:id/rw]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:38)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.jingdong.app.mall:id/rw]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:38)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 98.246
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in checkForFlow:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[SCROLLABLE=true]
+
+	at com.android.uiautomator.core.UiScrollable.scrollForward(UiScrollable.java:416)
+
+	at com.android.uiautomator.core.UiScrollable.scrollForward(UiScrollable.java:397)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:29)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[SCROLLABLE=true]
+
+	at com.android.uiautomator.core.UiScrollable.scrollForward(UiScrollable.java:416)
+
+	at com.android.uiautomator.core.UiScrollable.scrollForward(UiScrollable.java:397)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:29)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 43.542
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+========香香莉女鞋========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in checkForFlow:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.jingdong.app.mall:id/rw]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:39)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.jingdong.app.mall:id/rw]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.checkForFlow(AllCase.java:39)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 98.685
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+========香香莉女鞋========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=checkForFlow
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 96.672
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\Test.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 25.699
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.426
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\Test.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 8.553
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+

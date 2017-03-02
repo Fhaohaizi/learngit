@@ -1,17 +1,10 @@
 package mytest;
 
 import com.android.uiautomator.core.UiObjectNotFoundException;
-
 import java.util.HashSet;
-
-import com.android.uiautomator.core.Configurator;
 import com.android.uiautomator.core.UiDevice;
 import com.android.uiautomator.core.UiObject;
-import com.android.uiautomator.core.UiObjectNotFoundException;
-import com.android.uiautomator.core.UiScrollable;
 import com.android.uiautomator.core.UiSelector;
-
-import android.R.xml;
 
 @SuppressWarnings("deprecation")
 public class AllCase extends ClassCase{
@@ -24,7 +17,7 @@ public class AllCase extends ClassCase{
 		UiDevice.getInstance().pressHome();
 		getUiObjectByText("手机京东").clickAndWaitForNewWindow();
 		waitForUiObject("充值中心");
-		getUiObjectByTextResourceId("全部", "com.jingdong.app.mall:id/fz").click();
+		getUiObjectByTextResourceId("全部", "com.jingdong.app.mall:id/g0").click();
 		getUiObjectByText("领流量").clickAndWaitForNewWindow();
 		waitForUiObject("流量加油站");//等待页面出现
 		//这里无法获取页面信息，只能用点击坐标来实现了
@@ -33,6 +26,7 @@ public class AllCase extends ClassCase{
 		sleep(2000);
 		clickPiont(120, 1100);//点击领口令流量
 		sleep(2000);
+		getUiScrollabe().waitForExists(10000);
 		getUiScrollabe().scrollForward();//这里得先向下滑动一次，不然会直接向上滑动导致用例失败
 		UiObject lqld = new UiObject(new UiSelector().textStartsWith("流量口令"));
 		getUiScrollabe().scrollIntoView(lqld);//滑动到口令
@@ -42,7 +36,7 @@ public class AllCase extends ClassCase{
 		getUiScrollabe().scrollToBeginning(100, 8);//滚动到最上面
 		writeText(keytrue);//填写口令
 		sleep(2000);
-		getUiObjextByResourceId("com.jingdong.app.mall:id/rw").click();
+		getUiObjextByResourceId("com.jingdong.app.mall:id/rt").click();
 		clean();
 		}
 	public void sendMassageToAllFriend() throws UiObjectNotFoundException {

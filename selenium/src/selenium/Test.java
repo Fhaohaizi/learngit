@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.ie.*;
 import org.openqa.selenium.firefox.*;
 
+import com.thoughtworks.selenium.webdriven.commands.WaitForPageToLoad;
+
 
 public class Test extends Case{	
 	public static class Tests {
@@ -36,6 +38,7 @@ public class Test extends Case{
 			driver.get("http://www.dz101.com/");
 			//end
 			
+			loginWithTeacher(driver);
 			
 			
 			
@@ -46,9 +49,7 @@ public class Test extends Case{
 			
 			
 			
-			
-			
-			testOver(driver, false);
+//			testOver(driver, false);
 			
 }
 }
