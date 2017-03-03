@@ -1,0 +1,832 @@
+Added file C:\Users\user\workspace\teacher\build.xml
+Buildfile: C:\Users\user\workspace\teacher\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\Users\user\workspace\teacher\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 15 source files to C:\Users\user\workspace\teacher\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] ע: C:\Users\user\workspace\teacher\src\com\beetstra\jutf7\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\teacher\bin\classes
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\teacher\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\teacher\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+teacher.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+^_^..-. ...- 560--178..-. ...- ^_^
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.196
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\teacher\build.xml
+Buildfile: C:\Users\user\workspace\teacher\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\teacher\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\teacher\src\teacher\Test.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\teacher\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\teacher\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\teacher\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+teacher.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+^_^..-. ...- 328--1426..-. ...- ^_^
+
+^_^..-. ...- 319--697..-. ...- ^_^
+
+^_^..-. ...- 19--1357..-. ...- ^_^
+
+^_^..-. ...- 135--1593..-. ...- ^_^
+
+^_^..-. ...- 1025--62..-. ...- ^_^
+
+^_^..-. ...- 1046--943..-. ...- ^_^
+
+^_^..-. ...- 388--46..-. ...- ^_^
+
+^_^..-. ...- 1043--1661..-. ...- ^_^
+
+^_^..-. ...- 931--1429..-. ...- ^_^
+
+^_^..-. ...- 651--69..-. ...- ^_^
+
+^_^..-. ...- 657--794..-. ...- ^_^
+
+^_^..-. ...- 713--251..-. ...- ^_^
+
+^_^..-. ...- 493--390..-. ...- ^_^
+
+^_^..-. ...- 227--124..-. ...- ^_^
+
+^_^..-. ...- 657--1755..-. ...- ^_^
+
+^_^..-. ...- 253--1578..-. ...- ^_^
+
+^_^..-. ...- 1022--1520..-. ...- ^_^
+
+^_^..-. ...- 505--1243..-. ...- ^_^
+
+^_^..-. ...- 603--21..-. ...- ^_^
+
+^_^..-. ...- 989--1126..-. ...- ^_^
+
+^_^..-. ...- 314--811..-. ...- ^_^
+
+^_^..-. ...- 161--298..-. ...- ^_^
+
+^_^..-. ...- 227--964..-. ...- ^_^
+
+^_^..-. ...- 330--828..-. ...- ^_^
+
+^_^..-. ...- 551--689..-. ...- ^_^
+
+^_^..-. ...- 1039--816..-. ...- ^_^
+
+^_^..-. ...- 808--466..-. ...- ^_^
+
+^_^..-. ...- 1075--315..-. ...- ^_^
+
+^_^..-. ...- 522--639..-. ...- ^_^
+
+^_^..-. ...- 250--508..-. ...- ^_^
+
+^_^..-. ...- 547--1884..-. ...- ^_^
+
+^_^..-. ...- 847--144..-. ...- ^_^
+
+^_^..-. ...- 581--1799..-. ...- ^_^
+
+^_^..-. ...- 899--1516..-. ...- ^_^
+
+^_^..-. ...- 598--496..-. ...- ^_^
+
+^_^..-. ...- 80--317..-. ...- ^_^
+
+^_^..-. ...- 1057--1063..-. ...- ^_^
+
+^_^..-. ...- 1000--1497..-. ...- ^_^
+
+^_^..-. ...- 354--132..-. ...- ^_^
+
+^_^..-. ...- 1016--1874..-. ...- ^_^
+
+^_^..-. ...- 410--287..-. ...- ^_^
+
+^_^..-. ...- 526--663..-. ...- ^_^
+
+^_^..-. ...- 1075--12..-. ...- ^_^
+
+^_^..-. ...- 8--815..-. ...- ^_^
+
+^_^..-. ...- 382--639..-. ...- ^_^
+
+^_^..-. ...- 110--968..-. ...- ^_^
+
+^_^..-. ...- 493--151..-. ...- ^_^
+
+^_^..-. ...- 1048--586..-. ...- ^_^
+
+^_^..-. ...- 183--200..-. ...- ^_^
+
+^_^..-. ...- 464--1384..-. ...- ^_^
+
+^_^..-. ...- 380--1718..-. ...- ^_^
+
+^_^..-. ...- 411--1149..-. ...- ^_^
+
+^_^..-. ...- 130--988..-. ...- ^_^
+
+^_^..-. ...- 963--1100..-. ...- ^_^
+
+^_^..-. ...- 909--927..-. ...- ^_^
+
+^_^..-. ...- 224--481..-. ...- ^_^
+
+^_^..-. ...- 996--752..-. ...- ^_^
+
+^_^..-. ...- 810--348..-. ...- ^_^
+
+^_^..-. ...- 1018--75..-. ...- ^_^
+
+^_^..-. ...- 961--1339..-. ...- ^_^
+
+^_^..-. ...- 48--1385..-. ...- ^_^
+
+^_^..-. ...- 678--795..-. ...- ^_^
+
+^_^..-. ...- 449--1187..-. ...- ^_^
+
+^_^..-. ...- 440--938..-. ...- ^_^
+
+^_^..-. ...- 1015--793..-. ...- ^_^
+
+^_^..-. ...- 1016--914..-. ...- ^_^
+
+^_^..-. ...- 38--415..-. ...- ^_^
+
+^_^..-. ...- 535--1272..-. ...- ^_^
+
+^_^..-. ...- 1072--490..-. ...- ^_^
+
+^_^..-. ...- 174--1752..-. ...- ^_^
+
+^_^..-. ...- 685--1663..-. ...- ^_^
+
+^_^..-. ...- 200--77..-. ...- ^_^
+
+^_^..-. ...- 874--1492..-. ...- ^_^
+
+^_^..-. ...- 537--795..-. ...- ^_^
+
+^_^..-. ...- 217--1795..-. ...- ^_^
+
+^_^..-. ...- 28--24..-. ...- ^_^
+
+^_^..-. ...- 585--1083..-. ...- ^_^
+
+^_^..-. ...- 809--1666..-. ...- ^_^
+
+^_^..-. ...- 405--1862..-. ...- ^_^
+
+^_^..-. ...- 999--276..-. ...- ^_^
+
+^_^..-. ...- 157--376..-. ...- ^_^
+
+^_^..-. ...- 92--1409..-. ...- ^_^
+
+^_^..-. ...- 921--1419..-. ...- ^_^
+
+^_^..-. ...- 272--1370..-. ...- ^_^
+
+^_^..-. ...- 616--493..-. ...- ^_^
+
+^_^..-. ...- 730--27..-. ...- ^_^
+
+^_^..-. ...- 873--1611..-. ...- ^_^
+
+^_^..-. ...- 132--1230..-. ...- ^_^
+
+^_^..-. ...- 277--1614..-. ...- ^_^
+
+^_^..-. ...- 940--1437..-. ...- ^_^
+
+^_^..-. ...- 561--938..-. ...- ^_^
+
+^_^..-. ...- 1052--950..-. ...- ^_^
+
+^_^..-. ...- 796--813..-. ...- ^_^
+
+^_^..-. ...- 351--968..-. ...- ^_^
+
+^_^..-. ...- 31--48..-. ...- ^_^
+
+^_^..-. ...- 686--1663..-. ...- ^_^
+
+^_^..-. ...- 869--1487..-. ...- ^_^
+
+^_^..-. ...- 555--1293..-. ...- ^_^
+
+^_^..-. ...- 791--1831..-. ...- ^_^
+
+^_^..-. ...- 833--611..-. ...- ^_^
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 13.38
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\teacher\build.xml
+Buildfile: C:\Users\user\workspace\teacher\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\teacher\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\teacher\src\teacher\Test.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\teacher\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\teacher\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\teacher\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+teacher.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.dianzhi.teacher.school:id/et_user]
+
+	at com.android.uiautomator.core.UiObject.clearTextField(UiObject.java:623)
+
+	at com.android.uiautomator.core.UiObject.setText(UiObject.java:595)
+
+	at teacher.ClassSpecial.login(ClassSpecial.java:40)
+
+	at teacher.Test.testTest(Test.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.dianzhi.teacher.school:id/et_user]
+
+	at com.android.uiautomator.core.UiObject.clearTextField(UiObject.java:623)
+
+	at com.android.uiautomator.core.UiObject.setText(UiObject.java:595)
+
+	at teacher.ClassSpecial.login(ClassSpecial.java:40)
+
+	at teacher.Test.testTest(Test.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 11.938
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\teacher\build.xml
+Buildfile: C:\Users\user\workspace\teacher\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\teacher\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\teacher\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\teacher\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+teacher.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.dianzhi.teacher.school:id/et_user]
+
+	at com.android.uiautomator.core.UiObject.clearTextField(UiObject.java:623)
+
+	at com.android.uiautomator.core.UiObject.setText(UiObject.java:595)
+
+	at teacher.ClassSpecial.login(ClassSpecial.java:40)
+
+	at teacher.Test.testTest(Test.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.dianzhi.teacher.school:id/et_user]
+
+	at com.android.uiautomator.core.UiObject.clearTextField(UiObject.java:623)
+
+	at com.android.uiautomator.core.UiObject.setText(UiObject.java:595)
+
+	at teacher.ClassSpecial.login(ClassSpecial.java:40)
+
+	at teacher.Test.testTest(Test.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 11.752
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\teacher\build.xml
+Buildfile: C:\Users\user\workspace\teacher\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\teacher\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\teacher\src\teacher\ClassSpecial.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\teacher\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\teacher\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\teacher\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+teacher.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=登录, RESOURCE_ID=com.dianzhi.teacher.school:id/login]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at teacher.ClassSpecial.login(ClassSpecial.java:42)
+
+	at teacher.Test.testTest(Test.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=teacher.Test
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=登录, RESOURCE_ID=com.dianzhi.teacher.school:id/login]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at teacher.ClassSpecial.login(ClassSpecial.java:42)
+
+	at teacher.Test.testTest(Test.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 18.01
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+

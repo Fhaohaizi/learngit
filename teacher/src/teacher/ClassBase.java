@@ -11,6 +11,7 @@ import com.android.uiautomator.core.UiSelector;//uiselcetor
 import com.android.uiautomator.testrunner.UiAutomatorTestCase;//uiautomator
 
 import android.graphics.Point;//设置数组
+import android.view.KeyEvent;
 import jp.jun_nama.test.utf7ime.helper.Utf7ImeHelper;
 
 @SuppressWarnings({ "deprecation" })
@@ -257,7 +258,15 @@ public class ClassBase extends UiAutomatorTestCase{
 	public void setLong() {//设置长等待
 		Configurator.getInstance().setActionAcknowledgmentTimeout(1500);
 	}
-	
+	//清除中文文本
+	public void clearText() throws UiObjectNotFoundException {
+		String name = getUiObjextByResourceId("com.dianzhi.teacher.school:id/edit_content_change").getText();
+		outputNotable(name.length());
+		//如果光标在最后
+		pressTimes(KeyEvent.KEYCODE_DEL, name.length());
+		//如果光标在最开始
+//		pressTimes(KeyEvent.KEYCODE_FORWARD_DEL, name.length());
+	}
 	
 	
 	

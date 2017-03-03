@@ -4,12 +4,11 @@ package selenium;
 import java.awt.AWTException;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.*;
 //import org.openqa.selenium.ie.*;
 import org.openqa.selenium.firefox.*;
-
-import com.thoughtworks.selenium.webdriven.commands.WaitForPageToLoad;
 
 
 public class Test extends Case{	
@@ -39,12 +38,6 @@ public class Test extends Case{
 			//end
 			
 			loginWithTeacher(driver);
-			
-			
-			
-			
-			
-			
 			
 			
 			

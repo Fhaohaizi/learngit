@@ -1,22 +1,23 @@
 package student;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.File;//储存
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.text.SimpleDateFormat;//日期格式转换
-import java.util.Date;//获取日期
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import com.android.uiautomator.core.Configurator;
-import com.android.uiautomator.core.UiDevice;//device
-import com.android.uiautomator.core.UiObject;//uiobject
-import com.android.uiautomator.core.UiObjectNotFoundException;//uiobject
-import com.android.uiautomator.core.UiScrollable;//uiscrollable
-import com.android.uiautomator.core.UiSelector;//uiselcetor
-import com.android.uiautomator.testrunner.UiAutomatorTestCase;//uiautomator
+import com.android.uiautomator.core.UiDevice;
+import com.android.uiautomator.core.UiObject;
+import com.android.uiautomator.core.UiObjectNotFoundException;
+import com.android.uiautomator.core.UiScrollable;
+import com.android.uiautomator.core.UiSelector;
+import com.android.uiautomator.testrunner.UiAutomatorTestCase;
 
 import android.graphics.Point;//设置数组
 import jp.jun_nama.test.utf7ime.helper.Utf7ImeHelper;
@@ -171,7 +172,8 @@ public class ClassBase extends UiAutomatorTestCase{
 			Date end = new Date();
 			long time = end.getTime() - start.getTime();
 			if (time>10000) {
-				outputNotable("超过10秒没有出现！");
+				outputNotable(text + "超过10秒没有出现！");
+				fail();
 				key = false;
 			}
 		}
@@ -314,6 +316,27 @@ public class ClassBase extends UiAutomatorTestCase{
 			e.printStackTrace();
 		}
 
+	}
+	//等待文本控件并点击
+	public void waitForTextAndClick(String text) throws UiObjectNotFoundException {
+		waitForUiObject(text);
+//		getUiObjectByText(text).waitForExists(10000);
+		getUiObjectByText(text).clickAndWaitForNewWindow();	
+	}
+	//等待资源id并点击
+	public void waitForResourceIdAndClick(String id) throws UiObjectNotFoundException {
+		waitForUiObject(id);
+		getUiObjectByText(id).clickAndWaitForNewWindow();	
+	}
+	//等待desc并点击
+	public void waitForDescAndClick(String desc) throws UiObjectNotFoundException {
+		waitForUiObject(desc);
+		getUiObjectByText(desc).clickAndWaitForNewWindow();	
+	}
+	//等待classname并点击
+	public void waitForClassNameAndClick(String name) throws UiObjectNotFoundException {
+		waitForUiObject(name);
+		getUiObjectByText(name).clickAndWaitForNewWindow();	
 	}
 	
 	

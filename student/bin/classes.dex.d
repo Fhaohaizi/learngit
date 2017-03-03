@@ -1,0 +1,20 @@
+C:\Users\user\workspace\student\bin\classes.dex : \
+C:\Users\user\workspace\student\bin\classes\com\beetstra\jutf7\Base64Util.class \
+C:\Users\user\workspace\student\bin\classes\com\beetstra\jutf7\CharsetProvider.class \
+C:\Users\user\workspace\student\bin\classes\com\beetstra\jutf7\ModifiedUTF7Charset.class \
+C:\Users\user\workspace\student\bin\classes\com\beetstra\jutf7\UTF7Charset.class \
+C:\Users\user\workspace\student\bin\classes\com\beetstra\jutf7\UTF7StyleCharset.class \
+C:\Users\user\workspace\student\bin\classes\com\beetstra\jutf7\UTF7StyleCharsetDecoder.class \
+C:\Users\user\workspace\student\bin\classes\com\beetstra\jutf7\UTF7StyleCharsetEncoder.class \
+C:\Users\user\workspace\student\bin\classes\jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class \
+C:\Users\user\workspace\student\bin\classes\jp\jun_nama\test\utf7ime\Utf7ImeService.class \
+C:\Users\user\workspace\student\bin\classes\student\ClassBase.class \
+C:\Users\user\workspace\student\bin\classes\student\ClassCase$1.class \
+C:\Users\user\workspace\student\bin\classes\student\ClassCase$2.class \
+C:\Users\user\workspace\student\bin\classes\student\ClassCase$3.class \
+C:\Users\user\workspace\student\bin\classes\student\ClassCase.class \
+C:\Users\user\workspace\student\bin\classes\student\ClassSpecial.class \
+C:\Users\user\workspace\student\bin\classes\student\Test.class \
+C:\Users\user\workspace\student\bin\classes\student\UiAutomatorHelper.class \
+C:\Users\user\workspace\student\bin\classes\student\UpdateApp.class \
+C:\Users\user\workspace\student\bin\classes\student\Use.class \

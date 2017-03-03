@@ -16,7 +16,7 @@ public class ClassSpecial extends ClassBase{
 		UiObject b = new UiObject(new UiSelector().className("android.widget.EditText"));
 		UiObject c = new UiObject(new UiSelector().description("画布作答 Link"));
 		UiObject d = new UiObject(new UiSelector().description("拍照上传 Link"));
-		if(b.exists() && c.exists() && d.exists() || b.exists()){
+		if(b.exists() && c.exists() && d.exists()){
 			System.out.println("this is a Subjective questions");
 			}else{
 				System.out.println("this is a Objective questions");
@@ -40,6 +40,7 @@ public class ClassSpecial extends ClassBase{
 		getUiObjextByResourceId("com.dianzhi.teacher.school:id/et_user").setText("18871170065");
 		getUiObjextByResourceId("com.dianzhi.teacher.school:id/et_pwd").setText("111111");
 		getUiObjectByTextResourceId("登录", "com.dianzhi.teacher.school:id/login").clickAndWaitForNewWindow();
+		waitForUiObject("首页");
 		outputNotable("登录完成！");
 		setLong();
 	}	
@@ -207,15 +208,7 @@ public class ClassSpecial extends ClassBase{
 		}
 		setLong();
 	}
-	public void clearText() throws UiObjectNotFoundException {//清除中文文本
-		String name = getUiObjextByResourceId("com.dianzhi.teacher.school:id/edit_content_change").getText();
-		outputNotable(name.length());
-		//如果光标在最后
-		pressTimes(KeyEvent.KEYCODE_DEL, name.length());
-		//如果光标在最开始
-//		pressTimes(KeyEvent.KEYCODE_FORWARD_DEL, name.length());
-	}
-	
+
 	
 	
 	

@@ -1,5 +1,8 @@
 package teacher;
 
+import java.util.Random;
+
+import com.android.uiautomator.core.UiDevice;
 import com.android.uiautomator.core.UiObjectNotFoundException;
 
 @SuppressWarnings({ "deprecation" })
@@ -16,10 +19,9 @@ public class Test extends ClassCase{
 			myInfoTest();
 //			setSex();
 		}	
-	*/
-
-	
-	
+	*/	
+		
+		
 	
 	
 	
