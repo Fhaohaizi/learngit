@@ -6,10 +6,7 @@
       <class name="appium.TestAppium">
         <methods>
           <include name="beforeSuite"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
           <include name="test1"/>
-          <include name="beforeMethod"/>
         </methods>
       </class> <!-- appium.TestAppium -->
     </classes>

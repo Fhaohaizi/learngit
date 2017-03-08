@@ -12,12 +12,7 @@ import java.io.OutputStreamWriter;
 public class UpdateApp {
 	public static void main(String[] args) {
 		String packagename="", filename="";
-		for (int i = 0; i < args.length; i++) {
-			if(args[i].equals("--jar_name")){packagename=args[i+1];}
-			if(args[i].equals("--test_class")){filename=args[i+1];}
-		}
 		new UpdateApp(packagename, filename, false);
-
 	}
 	//通过key控制卸载安装还是直接安装
 	public UpdateApp(String classname, String filename, boolean key) {

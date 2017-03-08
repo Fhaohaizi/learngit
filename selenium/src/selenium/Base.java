@@ -245,7 +245,7 @@ public class Base extends Assert{
 			output("输入错误！");
 			break;
 		}
-	}
+	} 
 	
 	
 	
@@ -267,3 +267,4 @@ public class Base extends Assert{
 	
 	
 }
+ 

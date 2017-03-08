@@ -193,7 +193,7 @@ public class ClassBase extends UiAutomatorTestCase{
 	public UiScrollable getUiScrollabe() {//获取滚动控件
 		return new UiScrollable(new UiSelector().scrollable(true));
 	}
-	public UiScrollable getUiScrollableByResourceId(String id) {//输出滚动对象
+	public UiScrollable getUiScrollableByResourceId(String id) {//获取滚动对象
 		return new UiScrollable(new UiSelector().scrollable(true).resourceId(id));
 	}
 	public UiObject getUiObjectByResourIdIndex(String id, int index) {//通过ID和index获取控件

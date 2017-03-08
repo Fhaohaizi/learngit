@@ -1,5 +1,10 @@
 package mytest;
 import java.io.File;//储存
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.text.SimpleDateFormat;//日期格式转换
 import java.util.Date;//获取日期
 import com.android.uiautomator.core.UiDevice;//device
@@ -247,9 +252,8 @@ public class ClassBase extends UiAutomatorTestCase{
 		return new UiObject(new UiSelector().resourceId(id).instance(instance));
 	}
 	public void sendMassageToFriend(String x, String string) {
-		
+		outputNotable("尚未写好！");
 	}
-	
 	
 	
 	

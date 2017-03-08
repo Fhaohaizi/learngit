@@ -130,9 +130,11 @@ public class ClassBase extends UiAutomatorTestCase{
 	public UiObject getUiObjectByTextClassName(String text,String classname) {//通过文本和类名获取控件
 		return new UiObject(new UiSelector().text(text).className(classname));
 	}
+	//根据资源id获取控件
 	public UiObject getUiObjectByTextResourceId(String text, String id) {
 		return new UiObject(new UiSelector().text(text).resourceId(id));
 	}
+	//根据资源id和classname获取控件
 	public UiObject getUiObjectByResourceIdClassName(String id, String classname) {
 		return new UiObject(new UiSelector().resourceId(id).className(classname));
 	}
@@ -334,9 +336,19 @@ public class ClassBase extends UiAutomatorTestCase{
 		getUiObjectByText(desc).clickAndWaitForNewWindow();	
 	}
 	//等待classname并点击
-	public void waitForClassNameAndClick(String name) throws UiObjectNotFoundException {
-		waitForUiObject(name);
-		getUiObjectByText(name).clickAndWaitForNewWindow();	
+	public void waitForClassNameAndClick(String name, boolean key) throws UiObjectNotFoundException {
+		if (key) {
+			Date start = new Date();
+			waitForUiObject(name);
+			getUiObjectByText(name).clickAndWaitForNewWindow();
+			Date end = new Date();
+			long time = (start.getTime() - end.getTime())/1000;
+			outputNotable("寻找"+name+"控件共用去"+time+"秒！");
+		}else{
+			waitForUiObject(name);
+			getUiObjectByText(name).clickAndWaitForNewWindow();
+		}
+		
 	}
 	
 	
