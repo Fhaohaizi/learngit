@@ -1,7 +1,5 @@
 package selenium;
 
-import java.io.File;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -90,6 +88,10 @@ public class Base extends Assert{
 	public static void findElementByIdAndClearSendkeys(WebDriver driver, String id1 , String id2, String text) {
 		driver.findElement(By.id(id1)).clear();
 		driver.findElement(By.id(id2)).sendKeys(text);
+	}
+	public static void findElementByIdAndClearSendkeys(WebDriver driver, String id, String text) {
+		driver.findElement(By.id(id)).clear();
+		driver.findElement(By.id(id)).sendKeys(text);
 	}
 	//通过xpath获取元素点击
 	public static void findElementByXpathAndClick(WebDriver driver, String xpath) {
@@ -193,6 +195,7 @@ public class Base extends Assert{
 	public static void clickByJs(WebDriver driver, WebElement element) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();", element);
+		//第二种点击方法
 //		((JavascriptExecutor) driver).executeScript("arguments[0].click()", question);
 	}
 	//返回首页
@@ -228,7 +231,7 @@ public class Base extends Assert{
 			return false;
 		}
 	}
-	//设置固定睡眠时间
+	//自定义等待时间
 	public static void sleep(int key) throws InterruptedException {
 		switch (key) {
 		case 0:
@@ -242,14 +245,28 @@ public class Base extends Assert{
 			break;
 			
 		default:
-			output("输入错误！");
+			output("错误！");
 			break;
 		}
 	} 
+	//写入日志文件
+	public static void saveToFile(String text, String path, boolean isClose) throws IOException {
+		File file = new File("runlog.log");
+		BufferedWriter bf = null;
+		FileOutputStream outputStream = new FileOutputStream(file, true);
+		OutputStreamWriter outWriter = new OutputStreamWriter(outputStream);
+		bf = new BufferedWriter(outWriter);
+		bf.append(text);
+		bf.newLine();
+		bf.flush();
+		if (isClose) {
+			bf.close();
+			}
+		}
 	
-	
-	
-	
+
+			
+			
 	
 	
 	

@@ -1,10 +1,5 @@
 package mytest;
 import java.io.File;//储存
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.text.SimpleDateFormat;//日期格式转换
 import java.util.Date;//获取日期
 import com.android.uiautomator.core.UiDevice;//device
@@ -14,6 +9,7 @@ import com.android.uiautomator.core.UiScrollable;//uiscrollable
 import com.android.uiautomator.core.UiSelector;//uiselcetor
 import com.android.uiautomator.testrunner.UiAutomatorTestCase;//uiautomator
 import android.graphics.Point;//设置数组
+import android.graphics.Rect;
 import jp.jun_nama.test.utf7ime.helper.Utf7ImeHelper;
 
 @SuppressWarnings({ "deprecation" })
@@ -254,6 +250,21 @@ public class ClassBase extends UiAutomatorTestCase{
 	public void sendMassageToFriend(String x, String string) {
 		outputNotable("尚未写好！");
 	}
+	//点击控件右半边
+	public void getUiObjectByResoureIdAndclickRightHalf(String id) throws UiObjectNotFoundException {
+		//获取控件大小
+		Rect sss = getUiObjextByResourceId(id).getBounds();
+		//计算中心偏移量
+		clickPiont(sss.centerX()+sss.width()/4, sss.centerY());
+	}
+	//点击控件左半边
+	public void getUiObjectByResoureIdAndclickLeftHalf(String id) throws UiObjectNotFoundException {
+		//获取控件大小
+		Rect sss = getUiObjextByResourceId(id).getBounds();
+		//计算中心偏移量
+		clickPiont(sss.centerX()-sss.width()/4, sss.centerY());
+	}
+
 	
 	
 	

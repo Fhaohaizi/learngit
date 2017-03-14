@@ -3,8 +3,9 @@ package selenium;
 
 import java.awt.AWTException;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.concurrent.TimeUnit;
-
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.chrome.*;
 //import org.openqa.selenium.ie.*;
@@ -13,9 +14,9 @@ import org.openqa.selenium.firefox.*;
 
 public class Test extends Case{	
 	public static class Tests {
-		public static void main(String[] args) throws InterruptedException, IOException, AWTException {
+		public static void main(String[] args) throws InterruptedException, IOException, AWTException, ClassNotFoundException, SQLException {
 			testBegin();
-			//start 浏览器且访问首页
+			//start 浏览器且访问注册页面
 			/* 谷歌浏览器
 			System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
@@ -35,15 +36,17 @@ public class Test extends Case{
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//设置查询组件等待时间5秒
 			driver.manage().window().maximize();
 			driver.get("http://www.dz101.com/");
+//			driver.get("http://192.168.1.14:8006/user/reg");
 			//end
-			
-			loginWithTeacher(driver);
-			
-			
-			
-		 	
-//			testOver(driver, false);
-			
-}
+			String mobile = "18436035355";
+			Cookie a = new Cookie("MyName", mobile);
+			Cookie b = new Cookie("User_token_Session", MySql.getNewToken(mobile));
+			driver.manage().addCookie(a);
+			driver.manage().addCookie(b);
+			driver.navigate().refresh();
+//			Set<Cookie> cooies = driver.manage().getCookies();
+//			System.out.println(cooies);
+			testOver(driver, false);
+		}
 }
 }

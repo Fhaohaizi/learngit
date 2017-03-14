@@ -76,14 +76,13 @@ public class JEBCTest {
 			bf.flush();
 			if (isClose) {
 				bf.close();
-			}
-		} catch (FileNotFoundException e1) {
-			e1.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
+				}
+			} catch (FileNotFoundException e1) {
+				e1.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
+					}
 		}
-
-	}
 
 
 

@@ -46,7 +46,7 @@ public class TestNew extends Case {
         outputNow();
         //end
     }
- 
+  
     @After
     public void tearDown() throws Exception {
     	outputNow();

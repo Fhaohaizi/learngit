@@ -329,7 +329,7 @@ public class ClassCase extends ClassSpecial{
 		writeText(password);
 		getUiObjectByText("下一步").clickAndWaitForNewWindow();
 		getUiObjextByResourceId("com.dianzhi.student:id/ed_password__password_change").setText(Utf7ImeHelper.e("222222"));
-		getUiObjextByResourceId("com.dianzhi.student:id/ed_esure_p_password_password_change").setText(Utf7ImeHelper.e("222222"));
+		getUiObjextByResourceId("com.dianzhi.student:id/ed_esure_p_password/_password_change").setText(Utf7ImeHelper.e("222222"));
 		getUiObjectByText("完成").clickAndWaitForNewWindow();
 		login();
 	}

@@ -1,9 +1,12 @@
 package selenium;
 
 import java.awt.AWTException;
+import java.io.IOException;
+import java.sql.SQLException;
 import java.util.Random;
 import java.util.Set;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -289,7 +292,35 @@ public class Case extends Special{
 			}
 		}
 	}
-
+	//注册用户且删除
+	public static void registerUserAndDelete(WebDriver driver) throws ClassNotFoundException, SQLException, IOException, InterruptedException {
+		String mobile = "13578965425";
+		findElementByIdAndClearSendkeys(driver, "UserName", mobile);//输入手机号
+		findElementByIdAndClick(driver, "unit_t");//选择学校
+		findElementByIdAndClick(driver, "410000");//选择省
+		findElementByIdAndClick(driver, "411700");//选择市
+		findElementByIdAndClick(driver, "411721");//选择县
+		findElementByIdAndClick(driver, "28342");//选择学校
+		findElementByPartiaTextAndClick(driver, "点击获取验证码");
+		String code = MySql.getMobileCode(mobile);//获取验证码
+		findElementByIdAndClearSendkeys(driver, "Vcode", "Vcode", code);//输入验证码
+		findElementByIdAndClick(driver, "T_UserPasswordA");//输入密码
+		findElementByIdAndClick(driver, "T_UserPasswordB");//确认密码
+		findElementByIdAndClick(driver, "RegPostBtn");//确认注册
+		sleep(2);
+		MySql.deleteUserByMobile(mobile);//删除用户
+	}
+	//向浏览器添加cookies
+	public static void addCookies(WebDriver driver, String mobile) throws ClassNotFoundException, SQLException, IOException {
+		Cookie a = new Cookie("MyName", mobile);
+		Cookie b = new Cookie("User_token_Session", MySql.getNewToken(mobile));
+		driver.manage().addCookie(a);
+		driver.manage().addCookie(b);
+		driver.navigate().refresh();
+		//查看浏览器cookies
+//		Set<Cookie> cooies = driver.manage().getCookies();
+//		System.out.println(cooies);
+	}
 
 
 

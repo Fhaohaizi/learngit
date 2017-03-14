@@ -34,6 +34,7 @@ public class AllCase extends ClassCase{
 		String keytrue = key.substring(6, key.length());//提取口令
 		outputNotable(keytrue);
 		getUiScrollabe().scrollToBeginning(100, 8);//滚动到最上面
+		sleep(5000);
 		writeText(keytrue);//填写口令
 		sleep(2000);
 		getUiObjextByResourceId("com.jingdong.app.mall:id/rt").click();

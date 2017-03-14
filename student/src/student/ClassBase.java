@@ -127,6 +127,9 @@ public class ClassBase extends UiAutomatorTestCase{
 	public UiObject getUiObjectByText(String text) {//通过文本获取控件
 		return new UiObject(new UiSelector().text(text));
 	}
+	public UiObject getUiObjectByResourceId(String id) {
+		return new UiObject(new UiSelector().resourceId(id));
+	}
 	public UiObject getUiObjectByTextClassName(String text,String classname) {//通过文本和类名获取控件
 		return new UiObject(new UiSelector().text(text).className(classname));
 	}

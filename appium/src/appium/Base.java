@@ -1,6 +1,5 @@
 package appium;
 
-import java.awt.event.KeyEvent;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,20 +7,45 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import io.appium.java_client.android.AndroidDriver;
 
 public class Base {
+	public static void swipeLeft(AndroidDriver driver) {//左滑
+		int x = driver.manage().window().getSize().width;
+		int y = driver.manage().window().getSize().height;
+		driver.swipe(x-200, y/2, 200, y/2, 10);
+	}
+	public void swipeRight(AndroidDriver driver) {//右滑
+		int x = driver.manage().window().getSize().width;
+		int y = driver.manage().window().getSize().height;
+		driver.swipe(200, y/2, x-200, y/2, 10);
+	}
+	public void swipeUp(AndroidDriver driver) {//下滑
+		int x = driver.manage().window().getSize().width;
+		int y = driver.manage().window().getSize().height;
+		driver.swipe(x/2, y-200, x/2, 200, 10);
+	}
+	public void swipeDown(AndroidDriver driver) {//上滑
+		int x = driver.manage().window().getSize().width;
+		int y = driver.manage().window().getSize().height;
+		driver.swipe(x/2, 200, x/2, y-200, 10);
+	}
 	//根据id获取元素
 	public WebElement FindElementById(AndroidDriver driver, String id) {
 		return driver.findElement(By.id(id));
+	}
+	//根据classname获取元素
+	public WebElement FindElementByClassname(AndroidDriver driver, String classname) {
+		return driver.findElement(By.className(classname));
+	}
+	//根据desc获取元素
+	public WebElement FindElementByDesc(AndroidDriver driver, String using) {
+		return driver.findElementByAccessibilityId(using);
 	}
 	//根据xpath获取元素
 	public static WebElement findElementByXpath(AndroidDriver driver ,String xpath) {
@@ -67,7 +91,7 @@ public class Base {
 		output(c);
 	}
 	//截图命名为当前时间保存桌面
-	public static void takeScreenshotByNow(WebDriver driver) throws IOException {
+	public static void takeScreenshotByNow(AndroidDriver driver) throws IOException {
 		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String file = "C:\\Users\\user\\Desktop\\"+getNow()+".png";
 		FileUtils.copyFile(srcFile,new File(file));
@@ -97,7 +121,7 @@ public class Base {
 		return ssss.toString();
 		}
 	//判断元素是否存在
-	public static boolean exist(WebDriver driver, By selector) {
+	public static boolean exist(AndroidDriver driver, By selector) {
 		try {
 			driver.findElement(selector);
 			return true;
@@ -132,8 +156,7 @@ public class Base {
 			break;
 		}
 	} 
-
-
+	
 
 
 
