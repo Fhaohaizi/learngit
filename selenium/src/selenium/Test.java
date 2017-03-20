@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.*;
 
 
+
 public class Test extends Case{	
 	public static class Tests {
 		public static void main(String[] args) throws InterruptedException, IOException, AWTException, ClassNotFoundException, SQLException {
@@ -46,6 +47,9 @@ public class Test extends Case{
 			driver.navigate().refresh();
 //			Set<Cookie> cooies = driver.manage().getCookies();
 //			System.out.println(cooies);
+			String sd = "dwerwere";
+			assertTrue("222", sd.contains("dwo"));
+			
 			testOver(driver, false);
 		}
 }

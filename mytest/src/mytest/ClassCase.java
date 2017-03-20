@@ -1,5 +1,6 @@
 package mytest;
 
+import java.io.IOException;
 import java.util.Date;
 import java.util.Random;
 
@@ -333,8 +334,23 @@ public class ClassCase extends ClassSpecial{
 		getUiObjectByText("完成").clickAndWaitForNewWindow();
 		login();
 	}
-	
-	
+	public void qqPraise() throws IOException, UiObjectNotFoundException, InterruptedException {
+		//关闭QQ
+		Runtime.getRuntime().exec("am force-stop com.tencent.mobileqq");
+		sleep(1000);
+		//启动QQ
+		Runtime.getRuntime().exec("am start -n com.tencent.mobileqq/.activity.SplashActivity");
+		waitForUiObject("消息");//等待主页面加载
+		swipeRight();//进入右滑页面
+		//点赞
+		praiseToMe();
+		for(int i=0;i<8;i++){
+			changeQQAccount();
+			praiseToMe();
+		}
+		//关闭QQ,如果运行中想结束得加上waitfor();
+		Runtime.getRuntime().exec("am force-stop com.tencent.mobileqq").waitFor();
+	}
 	
 	
 	public void testTest() throws UiObjectNotFoundException {

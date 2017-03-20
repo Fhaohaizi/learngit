@@ -16,5 +16,6 @@ C:\Users\user\workspace\mytest\bin\classes\mytest\ClassCase$3.class \
 C:\Users\user\workspace\mytest\bin\classes\mytest\ClassCase.class \
 C:\Users\user\workspace\mytest\bin\classes\mytest\ClassSpecial.class \
 C:\Users\user\workspace\mytest\bin\classes\mytest\JEBCTest.class \
+C:\Users\user\workspace\mytest\bin\classes\mytest\Library.class \
 C:\Users\user\workspace\mytest\bin\classes\mytest\Test.class \
 C:\Users\user\workspace\mytest\bin\classes\mytest\UiAutomatorHelper.class \

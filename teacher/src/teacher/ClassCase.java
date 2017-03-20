@@ -572,7 +572,7 @@ public class ClassCase extends ClassSpecial{
 	
 	
 	
-	public void testTest() throws UiObjectNotFoundException {
+	public void testTestS() throws UiObjectNotFoundException {
   		getUiDevice().registerWatcher("Jurisdiction watcher",new UiWatcher(){//监听权限警告
 			UiObject warrning = new UiObject(new UiSelector().text("安全警告"));			
 			@Override

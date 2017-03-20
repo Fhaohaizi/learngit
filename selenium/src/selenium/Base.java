@@ -215,6 +215,7 @@ public class Base extends Assert{
 	//把string类型转化为int
 	public static int changeStringToInt (String text) {
 		return Integer.parseInt(text);
+//		return Integer.valueOf(text);
 	}
 	//通过xpath获取元素清除文本并写入
 	public static void findElementByXpathAndClearSendkeys(WebDriver driver, String xpath, String text) {
@@ -263,16 +264,14 @@ public class Base extends Assert{
 			bf.close();
 			}
 		}
-	
-
-			
-			
-	
-	
-	
-	
-	
-	
+	//将时间戳转化为时间
+	public static String changeTimeDB(String time) {
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd  HH:mm:ss");
+//		long dsf = Long.parseLong(time);
+		long lcc_time = Long.valueOf(time);
+		String StrTime = sdf.format(new Date(lcc_time * 1000L));
+		return StrTime;
+	}
 	
 	
 	
@@ -283,5 +282,10 @@ public class Base extends Assert{
 	
 	
 	
-}
- 
+	
+	
+	
+	
+	
+	
+} 

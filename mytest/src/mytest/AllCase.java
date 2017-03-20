@@ -1,6 +1,8 @@
 package mytest;
 
 import com.android.uiautomator.core.UiObjectNotFoundException;
+
+import java.io.IOException;
 import java.util.HashSet;
 import com.android.uiautomator.core.UiDevice;
 import com.android.uiautomator.core.UiObject;
@@ -9,7 +11,7 @@ import com.android.uiautomator.core.UiSelector;
 @SuppressWarnings("deprecation")
 public class AllCase extends ClassCase{
 	public static void main(String[] args){
-		new UiAutomatorHelper("Demo", "mytest.AllCase", "checkForFlow", "1");
+		new UiAutomatorHelper("Demo", "mytest.AllCase", "qqTest", "1");
 	}
 	public void checkForFlow() throws UiObjectNotFoundException{
 		//京东签到领流量
@@ -88,7 +90,18 @@ public class AllCase extends ClassCase{
 			}
 		}
 	
+	public void qqTest() throws IOException, UiObjectNotFoundException, InterruptedException {
+
+		qqPraise();
+		
+		
 	
+	
+	
+	
+	
+	
+	}
 	
 	
 	

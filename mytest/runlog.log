@@ -3468,3 +3468,4488 @@ Tests run: 1,  Failures: 0,  Errors: 1
 
 INSTRUMENTATION_STATUS_CODE: -1
 
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 4 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] ע: C:\Users\user\workspace\mytest\src\com\beetstra\jutf7\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+========2017年03月15日10时00分11秒========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.089
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\Test.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+========1489543211========
+
+========2017年03月15日10时00分11秒========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.093
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\Test.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+========1489543211========
+
+========2017-03-15-  10:00:11========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testTest
+
+INSTRUMENTATION_STATUS: class=mytest.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.094
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+[100%] /data/local/tmp/Demo.jar
+error: unknown host service
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.135
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.077
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.061
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.128
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-03-16 09:19:38
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.148
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-03-16 09:20:01
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.101
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-03-16 09:21:25
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.096
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+2017-03-16 09:21:58
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 10.092
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINS_DESCRIPTION=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at mytest.ClassBase.clickRightBottom(ClassBase.java:271)
+
+	at mytest.AllCase.qqTest(AllCase.java:102)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINS_DESCRIPTION=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at mytest.ClassBase.clickRightBottom(ClassBase.java:271)
+
+	at mytest.AllCase.qqTest(AllCase.java:102)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 19.64
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+========2017-03-16 09:54:19成功========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 10.004
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.tencent.mobileqq:id/head]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.AllCase.qqTest(AllCase.java:98)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.tencent.mobileqq:id/head]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.AllCase.qqTest(AllCase.java:98)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 15.539
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at mytest.ClassBase.clickRightBottom(ClassBase.java:271)
+
+	at mytest.AllCase.qqTest(AllCase.java:103)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at mytest.ClassBase.clickRightBottom(ClassBase.java:271)
+
+	at mytest.AllCase.qqTest(AllCase.java:103)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 22.75
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at mytest.ClassBase.clickRightBottom(ClassBase.java:271)
+
+	at mytest.AllCase.qqTest(AllCase.java:103)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at mytest.ClassBase.clickRightBottom(ClassBase.java:271)
+
+	at mytest.AllCase.qqTest(AllCase.java:103)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 11.848
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.072
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.qqTest(AllCase.java:104)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at mytest.AllCase.qqTest(AllCase.java:104)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 11.941
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.682
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.tencent.mobileqq:id/head]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.AllCase.qqTest(AllCase.java:99)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.tencent.mobileqq:id/head]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.AllCase.qqTest(AllCase.java:99)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 14.756
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+========2017-03-16 10:17:33成功========
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 19.534
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.741
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.67
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:160)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:94)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:160)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:94)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 35.92
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.601
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\ClassBase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 1.672
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:160)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:160)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 26.628
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.884
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:161)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:161)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 26.431
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassBase.waitForTextAndClick(ClassBase.java:293)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:161)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassBase.waitForTextAndClick(ClassBase.java:293)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:161)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 31.245
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\ClassSpecial.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:162)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=账号管理]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:162)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 27.797
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\ClassSpecial.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=waitForResourceIdAndClick]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassBase.waitForResourceIdAndClick(ClassBase.java:298)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:162)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=waitForResourceIdAndClick]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassBase.waitForResourceIdAndClick(ClassBase.java:298)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:162)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 30.483
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\ClassBase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=waitForResourceIdAndClick]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassBase.waitForResourceIdAndClick(ClassBase.java:301)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:162)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=waitForResourceIdAndClick]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassBase.waitForResourceIdAndClick(ClassBase.java:301)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:162)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 31.637
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\ClassBase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=waitForResourceIdAndClick]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassBase.waitForResourceIdAndClick(ClassBase.java:301)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:162)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=waitForResourceIdAndClick]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassBase.waitForResourceIdAndClick(ClassBase.java:301)
+
+	at mytest.ClassSpecial.changeQQAccount(ClassSpecial.java:162)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:348)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 31.322
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\ClassSpecial.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.tencent.mobileqq:id/head]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.praiseToMe(ClassSpecial.java:171)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:349)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.tencent.mobileqq:id/head]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.praiseToMe(ClassSpecial.java:171)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:349)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 115.761
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINS_TEXT=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at mytest.ClassSpecial.praiseToMe(ClassSpecial.java:175)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:349)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINS_TEXT=饿的时候想着来什么, PARENT=UiSelector[DESCRIPTION=赞]]
+
+	at com.android.uiautomator.core.UiObject.getBounds(UiObject.java:827)
+
+	at mytest.ClassSpecial.praiseToMe(ClassSpecial.java:175)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:349)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 81.223
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 0.079
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\user\workspace\mytest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: C:\Users\user\workspace\mytest\src\mytest\AllCase.javaʹ�û򸲸����ѹ�ʱ�� API��
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in qqTest:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.tencent.mobileqq:id/head]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.praiseToMe(ClassSpecial.java:168)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:346)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.tencent.mobileqq:id/head]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at mytest.ClassSpecial.praiseToMe(ClassSpecial.java:168)
+
+	at mytest.ClassCase.qqPraise(ClassCase.java:346)
+
+	at mytest.AllCase.qqTest(AllCase.java:95)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 24.186
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file C:\Users\user\workspace\mytest\build.xml
+Buildfile: C:\Users\user\workspace\mytest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 25.2.2
+ [checkenv] Installed at C:\Users\user\android-sdks
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 25.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 7.1.1
+[getuitarget] API level:        25
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\user\workspace\mytest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\user\workspace\mytest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\user\workspace\mytest\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+[100%] /data/local/tmp/Demo.jar
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+mytest.AllCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=qqTest
+
+INSTRUMENTATION_STATUS: class=mytest.AllCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 175.199
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+

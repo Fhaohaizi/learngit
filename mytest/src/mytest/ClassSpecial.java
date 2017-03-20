@@ -8,6 +8,9 @@ import com.android.uiautomator.core.UiObject;
 import com.android.uiautomator.core.UiObjectNotFoundException;
 import com.android.uiautomator.core.UiSelector;
 
+import android.graphics.Rect;
+import android.view.KeyEvent;
+
 @SuppressWarnings({ "deprecation" })
 public class ClassSpecial extends ClassBase{
 	public void judge() {//检查试题类型
@@ -150,6 +153,33 @@ public class ClassSpecial extends ClassBase{
 			getUiObjectByText("发送").click();
 		}
 		Configurator.getInstance().setActionAcknowledgmentTimeout(1500);
+	}
+	//切换QQ账号
+	public void changeQQAccount() throws UiObjectNotFoundException {
+		getUiObjectByText("设置").clickAndWaitForNewWindow();
+		sleep(1000);
+		waitForResourceIdAndClick("com.tencent.mobileqq:id/account_switch");
+		//切换账号，每次点击最后一个账号
+		getUiObjectByResourIdIndex("com.tencent.mobileqq:id/name", 7).clickAndWaitForNewWindow();
+		pressTimes(KeyEvent.KEYCODE_BACK, 2);//回到右滑界面
+	}
+	//点赞
+	public void praiseToMe() throws UiObjectNotFoundException {
+		getUiObjextByResourceId("com.tencent.mobileqq:id/head").clickAndWaitForNewWindow();
+		getUiObjectByDescContains("次赞，按钮").clickAndWaitForNewWindow();
+		getUiObjectByText("我赞过谁").clickAndWaitForNewWindow();
+		//按十次点赞按钮
+		Rect bounds = getUiObjectByTextContains("饿的时候想着来什么").getFromParent(new UiSelector().description("赞")).getBounds();
+		int x = bounds.centerX()+bounds.width()/4;
+		int y = bounds.centerY()+bounds.height()/4;
+		for(int i=0;i<10;i++){
+			clickPiont(x, y);
+			}
+		/*这个方法执行起来比较慢
+		for(int i=0;i<10;i++){
+		clickRightBottom(getUiObjectByTextContains("饿的时候想着来什么").getFromParent(new UiSelector().description("赞")));
+			}*/
+		pressTimes(KeyEvent.KEYCODE_BACK, 2);//回到右滑界面
 	}
 	
 	

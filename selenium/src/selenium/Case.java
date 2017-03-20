@@ -85,7 +85,7 @@ public class Case extends Special{
 				findElementByTextAndClick(driver, "点击下载");
 				Set<String> handlenews = driver.getWindowHandles();
 				for(String newsss : handlenews){
-					if (newsss.equals(news)==false && newsss.equals(homehandle) == false) {
+					if(newsss.equals(news)==false && newsss.equals(homehandle) == false) {
 						driver.switchTo().window(newsss);
 						output("切换到资源页面了！");
 						findElementByXpathAndClick(driver, "html/body/div[3]/div[1]/div[2]/table/tbody/tr[3]/td[5]/a");

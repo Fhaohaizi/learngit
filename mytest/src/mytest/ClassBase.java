@@ -118,6 +118,9 @@ public class ClassBase extends UiAutomatorTestCase{
 	public UiObject getUiObjectByText(String text) {//通过文本获取控件
 		return new UiObject(new UiSelector().text(text));
 	}
+	public UiObject getUiObjectByResourceId(String id) {//通过文本获取控件
+		return new UiObject(new UiSelector().resourceId(id));
+	}
 	public UiObject getUiObjectByTextClassName(String text,String classname) {//通过文本和类名获取控件
 		return new UiObject(new UiSelector().text(text).className(classname));
 	}
@@ -201,6 +204,7 @@ public class ClassBase extends UiAutomatorTestCase{
 	public void pressTimes(int keyCode, int times) {//对于一个按键按多次
 		for(int i=0;i<times;i++){
 			UiDevice.getInstance().pressKeyCode(keyCode);
+			sleep(200);
 		}
 	}
 	public void clickPiont(int x, int y) {//点击某一个点
@@ -217,6 +221,7 @@ public class ClassBase extends UiAutomatorTestCase{
 		int x = UiDevice.getInstance().getDisplayWidth();
 		int y = UiDevice.getInstance().getDisplayHeight();
 		clickPiont(x/2, y/2);
+//		UiDevice.getInstance().pressDPadCenter();
 	}
 	public void getTrust() throws UiObjectNotFoundException {//一键信任应用
 		UiDevice.getInstance().pressHome();
@@ -264,9 +269,57 @@ public class ClassBase extends UiAutomatorTestCase{
 		//计算中心偏移量
 		clickPiont(sss.centerX()-sss.width()/4, sss.centerY());
 	}
-
+	//点击控件左半边
+	public void clickRightBottom(UiObject uiObject) throws UiObjectNotFoundException {
+		//获取控件大小
+		Rect sss = uiObject.getBounds();
+		//计算中心偏移量
+		clickPiont(sss.centerX()+sss.width()/4, sss.centerY()+sss.height()/4);
+	}
 	
-	
+	//输出当前时间
+	public void outputNow() {
+		System.out.println(getNow());
+	}
+	//根据desc包含内容获取控件
+	public UiObject getUiObjectByDescContains(String text) {
+		return new UiObject(new UiSelector().descriptionContains(text));
+	}
+	//根据text包含内容获取控件
+	public UiObject getUiObjectByTextContains(String text) {
+		return new UiObject(new UiSelector().textContains(text));
+	}
+	//等待文本控件并点击
+	public void waitForTextAndClick(String text) throws UiObjectNotFoundException {
+		waitForUiObject(text);
+//		getUiObjectByText(text).waitForExists(10000);
+		getUiObjectByText(text).clickAndWaitForNewWindow();	
+	}
+	//等待资源id并点击
+	public void waitForResourceIdAndClick(String id) throws UiObjectNotFoundException {
+		waitForUiObject(id);
+		getUiObjectByResourceId(id).clickAndWaitForNewWindow();	
+	}
+	//等待desc并点击
+	public void waitForDescAndClick(String desc) throws UiObjectNotFoundException {
+		waitForUiObject(desc);
+		getUiObjectByText(desc).clickAndWaitForNewWindow();	
+	}
+	//等待classname并点击
+	public void waitForClassNameAndClick(String name, boolean key) throws UiObjectNotFoundException {
+		if (key) {
+			Date start = new Date();
+			waitForUiObject(name);
+			getUiObjectByText(name).clickAndWaitForNewWindow();
+			Date end = new Date();
+			long time = (start.getTime() - end.getTime())/1000;
+			outputNotable("寻找"+name+"控件共用去"+time+"秒！");
+		}else{
+			waitForUiObject(name);
+			getUiObjectByText(name).clickAndWaitForNewWindow();
+		}
+		
+	}
 	
 	
 	

@@ -1,14 +1,6 @@
 package student;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import com.android.uiautomator.core.Configurator;
@@ -18,7 +10,6 @@ import com.android.uiautomator.core.UiObjectNotFoundException;
 import com.android.uiautomator.core.UiScrollable;
 import com.android.uiautomator.core.UiSelector;
 import com.android.uiautomator.testrunner.UiAutomatorTestCase;
-
 import android.graphics.Point;//设置数组
 import jp.jun_nama.test.utf7ime.helper.Utf7ImeHelper;
 
@@ -203,7 +194,7 @@ public class ClassBase extends UiAutomatorTestCase{
 	public UiScrollable getUiScrollabe() {//获取滚动控件
 		return new UiScrollable(new UiSelector().scrollable(true));
 	}
-	public UiScrollable getUiScrollableByResourceId(String id) {//输出滚动对象的第N个
+	public UiScrollable getUiScrollableByResourceId(String id) {//输出滚动对象
 		return new UiScrollable(new UiSelector().scrollable(true).resourceId(id));
 	}
 	public void outputQuesionNum() throws UiObjectNotFoundException {//输出试题数量
@@ -277,51 +268,6 @@ public class ClassBase extends UiAutomatorTestCase{
 	public void setLong() {//设置长等待
 		Configurator.getInstance().setActionAcknowledgmentTimeout(1500);
 		}
-	public void execCmd(String cmd) {//执行cmd命令
-		System.out.println("----execCmd:  " + cmd);
-		try {
-			Process p = Runtime.getRuntime().exec(cmd);
-			// 正确输出流
-			InputStream input = p.getInputStream();
-			BufferedReader reader = new BufferedReader(new InputStreamReader(input));
-			String line = "";
-			while ((line = reader.readLine()) != null) {
-				System.out.println(line);
-				saveToFile(line, "runlog.log", false);
-			}
-			// 错误输出流
-			InputStream errorInput = p.getErrorStream();
-			BufferedReader errorReader = new BufferedReader(new InputStreamReader(errorInput));
-			String eline = "";
-			while ((eline = errorReader.readLine()) != null) {
-				System.out.println(eline);
-				saveToFile(eline, "runlog.log", false);
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-	public void saveToFile(String text, String path, boolean isClose) {//保存日志
-		File file = new File("runlog.log");
-		BufferedWriter bf = null;
-		try {
-			FileOutputStream outputStream = new FileOutputStream(file, true);
-			OutputStreamWriter outWriter = new OutputStreamWriter(outputStream);
-			bf = new BufferedWriter(outWriter);
-			bf.append(text);
-			bf.newLine();
-			bf.flush();
-
-			if (isClose) {
-				bf.close();
-			}
-		} catch (FileNotFoundException e1) {
-			e1.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-	}
 	//等待文本控件并点击
 	public void waitForTextAndClick(String text) throws UiObjectNotFoundException {
 		waitForUiObject(text);

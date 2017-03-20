@@ -1,33 +1,25 @@
-package teacher;
+package mytest;
 
-import java.io.File;//储存
-import java.text.SimpleDateFormat;//日期格式转换
-import java.util.Date;//获取日期
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import com.android.uiautomator.core.Configurator;
-import com.android.uiautomator.core.UiDevice;//device
-import com.android.uiautomator.core.UiObject;//uiobject
-import com.android.uiautomator.core.UiObjectNotFoundException;//uiobject
-import com.android.uiautomator.core.UiScrollable;//uiscrollable
-import com.android.uiautomator.core.UiSelector;//uiselcetor
-import com.android.uiautomator.testrunner.UiAutomatorTestCase;//uiautomator
-import android.graphics.Point;//设置数组
+import com.android.uiautomator.core.UiDevice;
+import com.android.uiautomator.core.UiObject;
+import com.android.uiautomator.core.UiObjectNotFoundException;
+import com.android.uiautomator.core.UiScrollable;
+import com.android.uiautomator.core.UiSelector;
+import com.android.uiautomator.testrunner.UiAutomatorTestCase;
+
+import android.graphics.Point;
 import android.view.KeyEvent;
 import jp.jun_nama.test.utf7ime.helper.Utf7ImeHelper;
 
-@SuppressWarnings({ "deprecation" })
-public class ClassBase extends UiAutomatorTestCase{
-	public static void main(String[] args){//debug调试
-		//new UiAutomatorHelper("Demo", "com.Test", "testDemo", "1");
-		    String jarName,testClass, testName,androidId;  
-		    jarName="test";//生成的jar包名  
-		    testClass="com.WholeMethod";//测试包名类名
-		    testName="testDemo";//调试方法名  
-		    androidId="1";//对应androidSDK版本  
-		      
-		    new UiAutomatorHelper(jarName, testClass, testName, androidId);  
-	}
+@SuppressWarnings("deprecation")
+public class Library extends UiAutomatorTestCase{
 	public void swipeLeft() {//左滑
 		int y = UiDevice.getInstance().getDisplayHeight();
 		int x = UiDevice.getInstance().getDisplayWidth();
@@ -53,15 +45,16 @@ public class ClassBase extends UiAutomatorTestCase{
 		sleep(150);
 		}
 	public String getNow() {//获取当前时间
-			Date time = new Date();
-			SimpleDateFormat now = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-			String c = now.format(time);
-			return c;
-		}		
-	public void screenShot() {//截图并命名为当前时间
-			File files = new File("/mnt/sdcard/aaa/"+getNow()+".png");
-		    UiDevice.getInstance().takeScreenshot(files);
+		Date time = new Date();
+		SimpleDateFormat now = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		String c = now.format(time);
+		return c;
 		}
+	public void screenShot() {//截图并命名为当前时间
+		File files = new File("/mnt/sdcard/aaa/"+getNow()+".png");
+	    UiDevice.getInstance().takeScreenshot(files);
+	    }
+	
 	public void circle(int x, int y, int r) {//画圆的方法
 		double d = (double) (Math.PI/30);//角度		
 		double[] xxx = new double[61];
@@ -118,7 +111,7 @@ public class ClassBase extends UiAutomatorTestCase{
 		}
 		//建立一个点数组，这里坐标一定要转化一下，不然是倒着的心形
 		UiDevice.getInstance().swipe(heart, 2);
-	}
+		}
 	public UiObject getUiObjectByText(String text) {//通过文本获取控件
 		return new UiObject(new UiSelector().text(text));
 	}
@@ -146,16 +139,31 @@ public class ClassBase extends UiAutomatorTestCase{
 	public void writeText(String text) throws UiObjectNotFoundException{//输入文字
 		getUiObjectByClassName("android.widget.EditText").setText(Utf7ImeHelper.e(text));
 	}
-	public void showAnalysis() throws UiObjectNotFoundException {//查看解析
-		getUiObjectByText("查看解析").click();
-		UiObject close = new UiObject(new UiSelector().text("收起解析"));
-		if (close.exists()) {
-			UiObject answer = new UiObject(new UiSelector().descriptionStartsWith("答案"));
-			if (!answer.exists()) {
-				outputNotable("show analysis fail !");
-			}
-		}else {
-			outputNotable("show analysis fail !");
+	public UiScrollable getUiScrollabe() {//获取滚动控件
+		return new UiScrollable(new UiSelector().scrollable(true));
+	}
+	public UiScrollable getUiScrollableByResourceId(String id) {//获取滚动对象
+		return new UiScrollable(new UiSelector().scrollable(true).resourceId(id));
+	}
+	public UiObject getUiObjectByResourIdIndex(String id, int index) {//通过ID和index获取控件
+		return new UiObject(new UiSelector().resourceId(id).index(index));
+		
+	}
+	public void outputBegin(String text) {//输出开始
+		System.out.println(text+"..-. ...- 开始！");
+	}
+	public void outputOver(String text) {//输出结束
+		System.out.println(text+"..-. ...- 结束！");
+	}
+	public void outputNotable(String text) {//明显输出
+		System.out.println("^_^..-. ...- "+text+"..-. ...- ^_^");
+	}
+	public void outputNotable(long num) {//方法重载
+		System.out.println("========"+num+"========");
+	}
+	public void pressTimes(int keyCode, int times) {//对于一个按键按多次
+		for(int i=0;i<times;i++){
+			UiDevice.getInstance().pressKeyCode(keyCode);
 		}
 	}
 	public void waitForUiObject(String text) {//等待对象出现
@@ -192,68 +200,8 @@ public class ClassBase extends UiAutomatorTestCase{
 				}
 			}
 		}
-	public UiScrollable getUiScrollabe() {//获取滚动控件
-		return new UiScrollable(new UiSelector().scrollable(true));
-	}
-	public UiScrollable getUiScrollableByResourceId(String id) {//获取滚动对象
-		return new UiScrollable(new UiSelector().scrollable(true).resourceId(id));
-	}
-	public UiObject getUiObjectByResourIdIndex(String id, int index) {//通过ID和index获取控件
-		return new UiObject(new UiSelector().resourceId(id).index(index));
-		
-	}
-	public void outputBegin(String text) {//输出开始
-		System.out.println(text+"..-. ...- 开始！");
-	}
-	public void outputOver(String text) {//输出结束
-		System.out.println(text+"..-. ...- 结束！");
-	}
-	public void outputNotable(String text) {//明显输出
-		System.out.println("^_^..-. ...- "+text+"..-. ...- ^_^");
-	}
-	public void outputNotable(long num) {//方法重载
-		System.out.println("========"+num+"========");
-	}
-	public void pressTimes(int keyCode, int times) {//对于一个按键按多次
-		for(int i=0;i<times;i++){
-			UiDevice.getInstance().pressKeyCode(keyCode);
-		}
-	}
 	public void clickPiont(int x, int y) {//点击某一个点
 		UiDevice.getInstance().click(x, y);
-	}
-	public void clean() throws UiObjectNotFoundException {//一键加速
-		UiDevice.getInstance().pressHome();
-		sleep(500);
-		UiDevice.getInstance().openQuickSettings();
-		getUiObjectByTextResourceId("一键清理", "com.android.systemui:id/statebutton3").click();
-		sleep(500);
-	}
-	public void clickCenter() {//点击屏幕中央
-		int x = UiDevice.getInstance().getDisplayWidth();
-		int y = UiDevice.getInstance().getDisplayHeight();
-		clickPiont(x/2, y/2);
-//		UiDevice.getInstance().pressDPadCenter();
-	}
-	public void getTrust() throws UiObjectNotFoundException {//一键信任应用
-		UiDevice.getInstance().pressHome();
-		clean();
-		swipeRight();
-		swipeRight();
-		sleep(200);
-		getUiObjectByText("安全中心").clickAndWaitForNewWindow();
-		getUiObjectByText("权限隐私").clickAndWaitForNewWindow();
-		getUiObjectByResourIdIndex("oppo:id/oppo_preference", 1).clickAndWaitForNewWindow();
-		getUiObjectByText("按应用程序管理").clickAndWaitForNewWindow();
-		getUiObjectByText("点知教育").clickAndWaitForNewWindow();
-		UiObject trust = new UiObject(new UiSelector().resourceId("android:id/checkbox"));
-		if (!trust.isChecked()) {
-			trust.click();
-			outputNotable("信任应用成功！");
-		}else{
-			outputNotable("已经信任该应用！");
-		}
-		UiDevice.getInstance().pressHome();
 	}
 	public void setShort() {//设置短等待
 		Configurator.getInstance().setActionAcknowledgmentTimeout(750);
@@ -265,12 +213,13 @@ public class ClassBase extends UiAutomatorTestCase{
 	public void clearText() throws UiObjectNotFoundException {
 		String name = getUiObjextByResourceId("com.dianzhi.teacher.school:id/edit_content_change").getText();
 		outputNotable(name.length());
+//		UiDevice.getInstance().pressKeyCode(KeyEvent.KEYCODE_MOVE_END);
+//		UiDevice.getInstance().pressKeyCode(KeyEvent.KEYCODE_MOVE_HOME);
 		//如果光标在最后
 		pressTimes(KeyEvent.KEYCODE_DEL, name.length());
 		//如果光标在最开始
 //		pressTimes(KeyEvent.KEYCODE_FORWARD_DEL, name.length());
 	}
-	
 	//匹配短信验证码
 	public int findCode(String message) {
 		Pattern r = Pattern.compile("[0-9]{6}");
@@ -329,5 +278,27 @@ public class ClassBase extends UiAutomatorTestCase{
 	
 	
 	
-		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
